@@ -1,0 +1,315 @@
+
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: Roboto, Sans Serif, Arial;
+	color: #4A6343;
+	font-size: 15px;
+}
+
+.container {
+	margin: 0px;
+	padding: 0px;
+}
+
+/* HEADER CONFIG */
+
+.itens-menu {
+	display: flex;
+	list-style-type: none;
+	justify-content: flex-end;
+	text-align: center;
+	height: 40px;
+}
+.item-menu {
+	margin: 15px;
+	font-size: 18px;
+}
+
+.item-menu a:hover {
+	font-size: 20px;
+}
+
+.simple-link {
+	text-decoration: none;
+	color: #63395B;
+}
+
+/*CONTENT*/
+.flex-content-row {
+	display: flex;
+	justify-content: center;
+}
+
+.flex-content-col {
+	display: flex;
+	flex-direction: column;
+}
+
+.centralize-content {
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+}
+
+
+/*MY CONTENT*/
+
+.presentation {
+	width: 1920px;
+	height: 1080px;
+	background-image: url("./../assets/background1.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	text-align: center;
+	color: #FFF;
+	padding-top: 40%;
+	font-size: 40px;
+}
+
+@media screen and (max-width: 1150px) {
+	.presentation {
+		background-image: url("./../assets/background3.jpg");
+		background-size: cover;
+		padding-top: 35%;
+	}
+}
+
+@media screen and (max-width: 920px) {
+	.presentation {
+		background-image: url("./../assets/background-mobile.jpg");
+		background-size: cover;
+		padding: 5px;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	.presentation {
+		background-image: url("./../assets/background-mobile.jpg");
+		background-size: contain;
+		padding: 5px;
+	}
+}
+
+@media screen and (max-width: 350px) {
+	.presentation {
+		background-image: url("./../assets/background-mobile.jpg");
+		background-size: contain;
+		padding-top: 5px;
+	}
+}
+
+.abilities-group {
+	flex-wrap: wrap;
+	font-size: 17px;
+}
+
+.ability-item {
+	height: 6%;
+	width: 6%;
+	object-fit: contain;
+}
+
+@media screen and (max-width: 920px) {
+	.ability-item {
+		height: 11%;
+		width: 11%;
+		object-fit: contain;
+	}
+}
+
+@media screen and (max-width: 350px) {
+	.ability-item {
+		height: 15%;
+		width: 15%;
+		object-fit: contain;
+	}
+}
+
+.centralize-text-to-img {
+	justify-content: center;
+	text-align: center;
+}
+
+.interesses {
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+}
+
+.flex-item-margin {
+	margin: 15px;
+}
+
+.flex-languages-margin {
+	margin: 10px;
+}
+
+.snake-game-workbench {
+	background-color: #E3FCDC;
+}
+
+.currency-converter-workbench {
+	background-color: #E3FCDC;
+}
+
+.interesses-workbench {
+	background-color: #E3FCDC;
+}
+
+.title-color-projects h2 {
+	COLOR: #6B6B6B;
+}
+
+.format-img-group {
+	flex-wrap: wrap;
+}
+
+.flex-proj-item {
+	margin: 15px;
+	height: 40%;
+	width: 40%;
+	object-fit: contain;
+}
+
+.flex-proj-item:hover {
+	height: 60%;
+	width: 60%;
+}
+
+.resize-proj-bot-img {
+	margin: 15px;
+	height: 100%;
+	width: 100%;
+	object-fit: contain;
+}
+
+@media screen and (max-width: 750px) {
+	.resize-proj-bot-img {
+		height: 80%;
+		width: 80%;
+	}
+}
+
+.resize-certs-img {
+	margin: 15px;
+	height: 70%;
+	width: 70%;
+	object-fit: contain;
+}
+
+@media screen and (max-width: 750px) {
+	.resize-proj-bot-img {
+		height: 60%;
+		width: 60%;
+	}
+}
+
+.size-to-64 {
+	width: 98px;
+	height: 98px;
+}
+
+.languages-group {
+	justify-content: center;
+	text-align: center;
+}
+
+.control-size-img {
+	height: 8%;
+	width: 8%;
+	object-fit: contain;
+}
+
+@media screen and (max-width: 750px) {
+	.control-size-img {
+		height: 13%;
+		width: 13%;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.control-size-img {
+		height: 17%;
+		width: 17%;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.control-size-img {
+		height: 22%;
+		width: 22%;
+	}
+}
+
+.about-div {
+	padding: 20px;
+	background-color: #E3FCDC;
+	font-size: 16px;
+	color: #6B6B6B;
+	text-align: justify;
+}
+
+.about-div p {
+	line-height: 1.6;
+	color: #B076A4;
+}
+
+@media screen and (max-width: 550px) {
+	.about-div {
+		width: 100%
+	}
+}
+
+.interesse-item {
+	
+}
+
+.interesse-item h4 {
+	font-size: 18px;
+}
+
+@media screen and (max-width: 600px) {
+	.interesse-item {
+		width: 50%
+	}
+}
+
+.margin-sides {
+	padding: 10px;
+}
+
+
+/*FOOTER*/
+.rodape {
+	display: flex;
+	justify-content: center;
+}
+
+.conteudo-rodape {
+	display: flex;
+	flex-direction: column;
+}
+
+.conteudo-frase-rodape {
+	display: flex;
+	justify-content: center;
+	text-align: justify;
+	padding: 10px;
+}
+
+.social-medias {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 10px;
+}
+
+.social-img {
+	margin: 15px;
+}
+
+.give_me_some_space {
+	height: 40px;
+}
